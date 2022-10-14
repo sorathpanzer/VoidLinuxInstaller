@@ -25,7 +25,7 @@ lv_root_name='Vroot'
 final_drive=''
 boot_partition='/dev/nvme0n1p1'
 hdd_ssd=''
-user_keyboard_layout=''
+user_keyboard_layout='pt-latin1'
 
 # Constants
 
