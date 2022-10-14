@@ -14,16 +14,16 @@ trap "kill_script" INT TERM QUIT
 
 # Variables
 
-user_drive=''
-encryption_yn=''
+user_drive='/dev/nvme0n1'
+encryption_yn='y'
 luks_ot=''
-encrypted_partition=''
-encrypted_name=''
-lvm_yn=''
+encrypted_partition='/dev/nvme0n1p2'
+encrypted_name='Volt'
+lvm_yn='n'
 vg_name=''
-lv_root_name=''
+lv_root_name='Vroot'
 final_drive=''
-boot_partition=''
+boot_partition='/dev/nvme0n1p1'
 hdd_ssd=''
 user_keyboard_layout=''
 
